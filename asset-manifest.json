@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-redux-course-projectTwo/static/css/main.285b91d3.css",
+    "main.js": "/react-redux-course-projectTwo/static/js/main.e326ae19.js",
+    "index.html": "/react-redux-course-projectTwo/index.html",
+    "main.285b91d3.css.map": "/react-redux-course-projectTwo/static/css/main.285b91d3.css.map",
+    "main.e326ae19.js.map": "/react-redux-course-projectTwo/static/js/main.e326ae19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.285b91d3.css",
+    "static/js/main.e326ae19.js"
+  ]
+}
