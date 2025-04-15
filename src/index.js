@@ -10,7 +10,7 @@ import { store } from './store';
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/react-redux-course-projectTwo/">
         <App />
       </BrowserRouter>
     </Provider>
