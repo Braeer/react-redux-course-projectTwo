@@ -11,6 +11,7 @@ import {
 import { useEffect } from 'react';
 import { loadCountries } from '../store/countries/countries-action';
 import { selectControls } from '../store/controls/contols-selectors';
+import throttle from 'lodash.throttle';
 
 export const HomePage = () => {
   const navigate = useNavigate();
@@ -25,7 +26,7 @@ export const HomePage = () => {
     if (!qty) {
       dispatch(loadCountries());
     }
-  }, [qty]);
+  }, [qty, dispatch]);
 
   return (
     <>
