@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-
 import Select from 'react-select';
 
 export const CustomSelect = styled(Select).attrs({
@@ -18,9 +17,7 @@ export const CustomSelect = styled(Select).attrs({
       ...provided,
       cursor: 'pointer',
       color: 'var(--colors-text)',
-      backgroundColor: state.isSelected
-        ? 'var(--colors-bg)'
-        : 'var(--colors-ui-base)',
+      backgroundColor: state.isSelected ? 'var(--colors-bg)' : 'var(--colors-ui-base)',
     }),
   },
 })`

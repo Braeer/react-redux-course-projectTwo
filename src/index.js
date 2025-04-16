@@ -5,12 +5,14 @@ import { BrowserRouter } from 'react-router-dom';
 
 import './index.css';
 import App from './App';
-import { store } from './store';
+import { store } from './store.js';
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/react-redux-course-projectTwo/">
+      <BrowserRouter
+      //  basename="/react-redux-course-projectTwo/"
+      >
         <App />
       </BrowserRouter>
     </Provider>
